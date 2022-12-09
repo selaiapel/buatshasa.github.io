@@ -1,0 +1,13 @@
+import turtle
+
+turtle.bgcolor('black')
+turtle.pencolor('white')
+turtle.speed(0)
+
+for i in range(180):
+    turtle.circle(180-i, 90)
+    turtle.left(90)
+    turtle.circle(180-i, 90)
+    turtle.left(10)
+
+    turtle.hideturtle()
